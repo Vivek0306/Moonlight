@@ -13,8 +13,13 @@ html, body{
 .navbar-nav li{
   padding-right: 20px;
 }
-.nav-link{
+.nav-link {
   font-size: 1.1em !important;
+  
+}
+.nav-link :hover{
+  background-color: cornflowerblue ;
+  border: 1px solid #563d7c;
 }
 .carousel-inner img{
   width: 100%;
@@ -60,16 +65,34 @@ html, body{
   border-top: 2px solid #b4b4b4;
   width: 95%;
   margin-top: .3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .fa-truck{
   color: #e54d26;
 }
 .fa-plane{
-  color: #563d7c;
+  color: #2163af;
 }
 .fa-ship{
   color: #2163af;
+}
+.fa-archive{
+  color:#e54d26;
+}
+.fa-dropbox{
+  color: #2163af;
+}
+.fa-globe{
+  color:#e54d26;
+}
+.fa-users{
+  color: #2163af;
+}
+.fa-home{
+  color: #2163af;
+}
+.fa-map-marker{
+  color:#e54d26;
 }
 .fa-code,.fa-bold,.fa-css3{
   font-size: 4em;
