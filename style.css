@@ -8,22 +8,43 @@ html, body{
 }
 
 .navbar{
-  padding: .8rem; /*1 rem is 16px*/
+  padding: .5rem; /*1 rem is 16px*/
 }
 .navbar-nav li{
   padding-right: 20px;
 }
+/*this is start*/
 .nav-link {
-  font-size: 1.1em !important;
+  transition: 0.4s;
+  color: #12bcf5;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.nav-link:hover {
+  background-color:   #aae0f1;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+/*this is end*/
+.nav-link {
+  font-size: 1.7em !important;
   
 }
-.nav-link :hover{
-  background-color: cornflowerblue ;
-  border: 1px solid #563d7c;
-}
+
 .carousel-inner img{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
-  height: 100%;
+  height:100%;
+}
+
+.carousel-item img{
+  width: 200px;
+  height: 600px;
 }
 .carousel-caption{
   position: absolute;
@@ -68,31 +89,31 @@ html, body{
   margin-bottom: 2rem;
 }
 .fa-truck{
-  color: #e54d26;
+  color:  #1f425d;
 }
 .fa-plane{
-  color: #2163af;
+  color: #007bff;
 }
 .fa-ship{
-  color: #2163af;
+  color: #007bff;
 }
 .fa-archive{
-  color:#e54d26;
+  color: #1f425d;
 }
 .fa-dropbox{
-  color: #2163af;
+  color: #007bff;
 }
 .fa-globe{
-  color:#e54d26;
+  color: #1f425d;
 }
 .fa-users{
-  color: #2163af;
+  color:#007bff;
 }
 .fa-home{
-  color: #2163af;
+  color: #007bff;
 }
 .fa-map-marker{
-  color:#e54d26;
+  color: #1f425d;
 }
 .fa-code,.fa-bold,.fa-css3{
   font-size: 4em;
@@ -124,30 +145,36 @@ html, body{
   color: #d5d5d5;
 }
 footer{
-  background-color: #3f3f3f;
-  color: #d5d5d5;
-  padding-top: 2rem;
+  background-color: #1f425d;
+  color: #ffffff;
+  
 }
 hr.light{
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #161515;
   width: 75%;
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
 footer a{
-  color: #d5d5d5;
+  color: #ffffff;
 }
 hr.light-100{
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #0a0a0a;
   width: 100%;
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
 
 
+.about_us u{
+  color: #1f425d;
+  font-weight: 400;
+  
+}
 
-
-
+.about_us p{
+  font-size: medium;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -270,7 +297,6 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
 
 
 

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+	<script src="scripts.js"></script>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>MARVEL LOGISTICS</title>
+	<title>MOONLIGHT LOGISTICS AND ENTERPRISES</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -15,31 +16,78 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-<div class="container-fluid">
-	<a class="navbar-brand "href="#"><img src="img/LOGO-MAIN1.png" alt="Logo"></a>
+<nav class="navbar navbar-expand-md navbar-light sticky-top  " style="background-color: #1f425d;">
+<div class="container-fluid" style="margin-top: 7px;margin-bottom:7px;">
+	<a class="navbar-brand "href="#" ><img  src="img/moonlight logo (2).png" width="80" height="80"alt="Logo"></a>
 	<!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 		<span class="navbar-toggler-icon"></span>
 	</button>  -->
 	<div>
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item">
-				<a href="index.html" class="nav-link" style="color: #fd7e14; ">HOME</a>
+				<a href="index.html" class="nav-link" style="color: #ffffff;">HOME</a>
 			</li>
 			<li class="nav-item">
-				<a href="about.html" class="nav-link" style="color: blue;">ABOUT US</a>
+				<a href="about.html" class="nav-link" style="color: #ffffff;">ABOUT US</a>
 			</li>
 			<li class="nav-item">
-				<a href="services.html" class="nav-link" style="color: #fd7e14; ">SERVICES</a>
+				<a href="services.html" class="nav-link" style="color: #ffffff; ">SERVICES</a>
 			</li>
 			<li class="nav-item">
-				<a href="contact.html" class="nav-link" style="color: blue;">CONTACT</a>
+				<a href="contact.html" class="nav-link" style="color: #ffffff;">CONTACT</a>
 			</li>
 		</ul>
 	</div>
 </div>
 </nav>
-<!--- Image Slider -->
+
+<!--WEBSITE INFO-->
+<nav class="navbar navbar-expand-md navbar-dark " style="background-color: #ffffff;" >
+	<div class="container-fluid">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item" style="padding-left:50px;color:#1f425d;" ><h4>EXCELLENT<br> SERVICE.</h4></li>
+			<li class="nav-item" style="padding-left: 50px;color:#1f425d;" ><h4>ON TIME <br> DELIVERIES.</h4></li>
+			<li class="nav-item" style="padding-left: 50px;color: #1f425d;"><h4>TRUELY <br> RELIABLE.</h4></li>
+			<li class="nav-item" style="padding-left: 50px;color: #1f425d;"><h4>OPEN <br> 24 X 7 X 365</h4></li>
+		</ul>
+	</div>
+</nav>
+
+<!--NEW CAROUSEL-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="padding-left: 50px ;padding-right: 50px;background-color: #e3f2fd;">
+	<ol class="carousel-indicators">
+	  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img class="d-block w-100" src="img/carousel2.png" alt="First slide">
+		<div class="carousel-caption">
+			<h1 class="display-2" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">MOONLIGHT LOGISTICS AND ENTERPRISES</h1>
+			<h3>International Freight Forwarder and Consultant</h3>
+			<button type="button" class="btn btn-outline-light btn-lg">VIEW</button>
+			<button type="button" class="btn btn-primary btn-lg">Get Started</button>
+		</div>
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="img/carousel3.png" alt="Second slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="img/carousel1.png" alt="Third slide">
+	  </div>
+	</div>
+	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Next</span>
+	</a>
+  </div>
+
+<!--- Image Slider 
 <div id="slides" class="carousel slide" data-ride="carousel">
 	<ul class="carousel-indicators">
 		<li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -51,8 +99,8 @@
 		<div class="carousel-item active">
 			<img src="img/carousel2.png" alt="slide1">
 			<div class="carousel-caption">
-				<h1 class="display-2">MARVEL LOGISTICS</h1>
-				<h3>Packers and Movers</h3>
+				<h1 class="display-2" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">MOONLIGHT LOGISTICS AND ENTERPRISES</h1>
+				<h3>International Freight Forwarder and Consultant</h3>
 				<button type="button" class="btn btn-outline-light btn-lg">VIEW</button>
 				<button type="button" class="btn btn-primary btn-lg">Get Started</button>
 			</div>
@@ -65,12 +113,14 @@
 		</div>
 	</div>
 </div>
-
+-->
 <!--- Jumbotron -->
 <div class="container-fluid">
 	<div class="row jumbotron" >
 		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-			<p class="lead">Shipping Industry is one Industry wherein it is indeed an Ocean of Opportunities and has no limitations of achievements. We at <b>Marvel Logistics</b> established on 11th day of January 2020, right from our first day have emphasized on the fact that whatever opportunities that come to us are catered to the highest standard of professionalism.</p>
+			<p class="lead">The purpose of this communication is to introduce our Company to your requirement of a ‘Freight Management’ partner for your imports & export Shipments. 
+ 
+			</p>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
 			<a href="#"><button class="btn btn-outline-secondary btn-lg" type="button">HELLO</button></a>
@@ -82,11 +132,11 @@
 <div class="container-fluid padding" >
 	<div class="row welcome text-center">
 		<div class="col-12">
-			<h1 class="display-4"><span style="color: #fd7e14;">TRUE</span><span style="color: blue;">  PROFESSIONALISM.</span></h1>
+			<h1 class="display-4" style="font-weight: 800;font-family: Arial, Helvetica, sans-serif;"><span style="color: #007bff;">TRUE</span><span style="color:  #1f425d;">  PROFESSIONALISM.</span></h1>
 		</div>
 		<hr>
 		<div class="col-12">
-			<p class="lead">As of now Marvel Logistics has been actively involved as Brokers for major Shipping Lines and Cargo Trades. We have cleared various Shipments throughout the Country. Provided excellent serivces in all sorts of Cargo Trades. We have always believed in Customer satisfaction and make sure we cater to their needs on time.  </p>
+			<p class="lead">MOONLIGHT ENTERPRISES  is an alliance of independent transportation and  logistics companies and key affiliated service providers. These organizations form a synergy to  provide an unparalled resource of transportation, value added logistics services and computerized connectivity for customers on a global scale.   </p>
 		</div>
 	</div>
 </div>
@@ -96,19 +146,19 @@
 	<div class="row text-center padding">
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="fa fa-plane fa-4x"></i>
-				<h3>AIR FREIGHT</h3>
-				<p>Marvel Logistics offers a wide range of options-from expedited and consolidated flights to deferred flights.</p>		
+				<h3 style="color: #1f425d;">AIR FREIGHT</h3>
+				<p>MOONLIGHT ENTERPRISES offers scheduled airfreight services Around the world. From packages and heavyweight cargo we can provide airport‐to‐airport to door‐to‐door service options. Transit times are fast and reliable ‐ ensuring you meet your customer's deadlines.</p>		
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="fa fa-truck fa-4x"></i>
-				<h3>INLAND LOGISTICS</h3>
-				<p>No problem is too great for Marvel Logistics. We pride ourselves in solving problems within strict budget and On Time.</p>		
+				<h3 style="color: #1f425d;">INLAND LOGISTICS</h3>
+				<p>MOONLIGHT ENTERPRISES provides inland transportation that can deal with any trucking and distribution that you might require. With safety and efficiency on top of the priority list, we ensure that your merchandize arrives safely at the right place.</p>		
 		</div>
 		
 		<div class="col-sm-12  col-md-4">
 			<i class="fa fa-ship fa-4x" aria-hidden="true"></i>
-				<h3>SEA FREIGHT</h3>
-				<p>	At Marvel Logistics, our experience brings efficiency and accountability to the movement of sea freight.</p>		
+				<h3 style="color: #1f425d;">SEA FREIGHT</h3>
+				<p>	MOONLIGHT ENTERPRISES provides worldwide sea freight forwarding and consolidation services for all types of merchandise. Our network of resources enables us to offer a reliable door‐to‐door service for both LCL and FCL shipments.We meet our customer’s service requirements.</p>		
 		</div>
 
 	</div>
@@ -118,11 +168,16 @@
 <!--- Two Column Section -->
 <div class="container-fluid padding">
 	<div class="row padding">
-		<div class="col-md-12 col-lg-6" style="font-size: 18.5px;">
-			<h2><span style="color: #fd7e14;">If you</span> <span style="color: blue;">Choose us...</span> </h2>
-			<p>We have wide variety of vehicles which includes heavy duty vehicles like TATA ACE , PICKUP trucks, 407’s and 20ft Container that are meant for heavy and bulky cargo.  </p>
-			<p>Availability of vehicles ensures OnTime delivery of Goods. </p>
-			<p>CHA support ensures smooth and effective Trades.</p>
+		<div class="col-md-12 col-lg-6">
+			<h2><span style="color:  #007bff;">If you</span> <span style= "color: #1f425d;">Choose us...</span> </h2>
+			<p> <i>We have earned a trusted name in the domain of providing Logistic Services. For the comfort of
+				the clients, we offer Door To Door Services, Custom  Clearance, Ocean Freight and Air Freight
+				Services as per the prescribed deadlines.</i></p>
+				
+			<p><i>All our services are rendered by the experts, who
+				consult clients on time‐to‐time basis to provide beneficiary and satisfactory services. For being
+				reliable, cost‐effective, assured and timely, our provided services are highly appreciated by the
+				clients.</i></p>
 			<a href="#" class="btn btn-primary">Learn More</a>
 		</div>
 		<div class="col-lg-6">
@@ -130,15 +185,16 @@
 		</div>
 	</div>
 </div>
-<hr class="my-4">
-<!--- Fixed background -->
+<hr class="my-4" color="grey">
+
+<!--- Fixed background 
 <figure>
 	<div class="fixed-wrap">
 	   <div id="fixed"></div>
 	</div>
 </figure>
-
-<!--- Emoji Section -->
+-->
+<!--- Emoji Section 
 <button class="fun" data-toggle="collapse" data-target="#emoji">CLick for Fun.</button>
 <div id="emoji" class="collapse">
 	<div class="container-fluid padding">
@@ -158,37 +214,40 @@
 		</div>
 	</div>
 </div>
+-->
 <!--- Meet the team -->
 <div class="container-fluid padding">
 	<div class="row welcome text-center">
 		<div class="col-12">
-			<h1 class="display-4"><span style="color: #fd7e14;">Meet th</span><span style="color: blue;">e Team.</span> </h1>			
+			<h1 class="display-4" style="font-weight: 800;font-family: Arial, Helvetica, sans-serif;"><span style="color: #007bff;">Meet th</span><span style="color:  #1f425d;">e Team.</span> </h1>			
 		</div>
 		<hr>
 	</div>
 </div>
 
 <!--- Cards -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" >
 	<div class="row padding">
-		<div class="col-md-6">
-			<div class="card">
+		<div class="col-md-12"style="align-items: center;" >
+			<div class="card " style="align-items: center;">
 				<!--<img src="img/team1.png" class="card-img-top">-->
-				<div class="card-body">
-					<h4 class="card-title">CLIENT-1</h4>
-					<p class="card-text">INFO ABOUT CLIENT-1</p>
+				<div class="card-body" style="align-items: center;">
+					<h4 class="card-title">VIVEK NAIR</h4>
+					<p class="card-text">Vivek Nair has an experience of 10 years in this field.</p>
 				</div>
 			</div>
 		</div>
+		<!--
 		<div class="col-md-6">
 			<div class="card">
-				<!--<img src="img/team2.png" class="card-img-top">-->
+			<img src="img/team2.png" class="card-img-top">
 				<div class="card-body">
-					<h4 class="card-title">CLIENT-2</h4>
-					<p class="card-text">INFO ABOUT CLIENT-2</p>
+					<h4 class="card-title">PRAKASH SINHA</h4>
+					<p class="card-text">Prakash Sinha has an experience of 9 years in this field. </p>
 				</div>
-			</div>
-		</div>
+			</div> 
+		
+		</div>-->
 	<!--	<div class="col-md-4">
 			<div class="card">
 				<img src="img/team3.png" class="card-img-top">
@@ -201,19 +260,19 @@
 	-->	
 	</div>
 </div>
-
+<br>
 <!--- Two Column Section -->
 <div class="container-fluid padding">
 	<div class="row padding">
 		<div class="col-md-12 col-lg-6">
-			<h2><span style="color: #fd7e14;">Our</span> <span style="color: blue;">Motive...</span></h2>
+			<h2><span style="color:  #007bff;">Our</span> <span style="color: #1f425d;">Motive...</span></h2>
 			<p>We aspire to become one of the world’s leading, one-stop global logistics service providers. As a leading organization, we will remain committed to serving our clients with best services to the best of our abilities at all times.</p>
 			<p> Our mission milestone is to offer customized multi-modal logistic solutions to all our valued customers and to exceed their expectations, transcending trade barriers.</p>
 			<p>With our eyes set on the future, we envision forging a future with greater market share and partnering trust with customers worldwide.</p>
 			<br>
 		</div>
 		<div class="col-lg-6">
-			<img src="img/bootstrap2.png" class="img-fluid">
+			<img src="img/moonlight logo (2).png" class="img-fluid" style="padding-left: 250px;" >
 		</div>
 	</div>
 	<hr class="my-4">
@@ -235,55 +294,62 @@
 
 <!--- Footer -->
 <footer>
-<div class="container-fluid padding">
-<div class="row text-center">
-		<div class="cold-md-3">
-				<img src="img/LOGO-MAIN1.png">
-				<hr class="light">
-				<p>91+ 6969696969</p>
-				<p>hahaha@gmail.com</p>
-				<p>Mumbai</p>
-				<p>401-201</p>
-		</div>
-
-		<div class="col-md-3">
-				<hr class="light">
-				<h5>Our Hours</h5>
-				<hr class="light">
-				<p>Monday: 9am to 5pm</p>
-				<p>Saturday:10am to 4 pm</p>
-				<p>Sunday: Closed</p>
-		</div>
-
-		<div class="col-md-3" style="float: right;">
-				<hr class="light">
-				<h5>Service Area</h5>
-				<hr class="light">
-				<p>City:000-000</p>
-				<p>City:000-000</p>
-				<p>City:000-000</p>
-				<P>City:000-000</P>
-		</div>
-
-		<div class="col-md-3" style="float: right;">
-		    <hr class="light">
-			<h5>Quick Navigation</h5>
-			<hr class="light">
-			<p><a href="index.html">Home</a></p>
-			<p><a href="about.html">About Us</a></p>
-			<p><a href="services.html">Services</a></p>
-			<p><a href="contact.html">Contact Us</a></p>
-		</div>
-
-		<div class="col-12">
-			<hr class="light-100">
-			<h5>&copy;2020 MARVEL LOGISTICS</h5>
-			<h5>DESIGNED BY VIVEK.</h5>
-		</div>
-</div>
-</div>
-</footer>
-
+    <div class="container-fluid padding">
+    <div class="row text-center">
+            <div class="cold-md-3" style="padding-left: 30px;">
+                    <hr class="light">
+                    <img src="img/moonlight logo (2).png" height="300" width="300">
+                    <hr class="light">
+                    
+            </div>
+    
+            <div class="col-md-3" style="padding-left: 50px;">
+                    <hr class="light">
+                    <h5>Our Hours</h5>
+                    <hr class="light">
+                    <p>Monday: 9am to 6pm</p>
+                    <p>Saturday:10am to 4 pm</p>
+                    <p>Sunday: Closed</p>
+            </div>
+    
+            <div class="col-md-3">
+                <hr class="light">
+                <h5>Contacts</h5>
+                <hr class="light">
+                    <p>91+ 9892332043</p>
+                    <p>91+ 9137874695</p>
+                    <p>Mumbai</p>
+                    <p>401-201</p>
+            </div>
+        <!--	<div class="col-md-3" style="float: right;">
+                    <hr class="light">
+                    <h5>Service Area</h5>
+                    <hr class="light">
+                    <p>City:000-000</p>
+                    <p>City:000-000</p>
+                    <p>City:000-000</p>
+                    <P>City:000-000</P>
+            </div>
+        -->
+    
+            <div class="col-md-3" style="float: right;">
+                <hr class="light">
+                <h5>Quick Navigation</h5>
+                <hr class="light">
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About Us</a></p>
+                <p><a href="services.html">Services</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+            </div>
+    
+            <div class="col-12">
+                <hr class="light-100">
+                <h5>&copy;2020 MOONLIGHT LOGISTICS</h5>
+                <h5>DESIGNED BY VIVEK.</h5>
+            </div>
+    </div>
+    </div>
+    </footer>
 
 
 </body>
